@@ -2,9 +2,9 @@
 
 @section('contenido')
 <div class="right custom-social">
-<a href="{{URL::to('https://twitter.com/home')}}"><img class='twitter' src={{asset('imagenes/twitter.png')}} alt="Twitter"></a>
+<a href="{{URL::to('https://twitter.com/Blogarmariomar1')}}"><img class='twitter' src={{asset('imagenes/twitter.png')}} alt="Twitter"></a>
 <a href="{{URL::to('https://www.facebook.com/maria.acostaprieto.3')}}"><img class='facebook' src={{asset('imagenes/facebook.png')}} alt="Facebook"></a>
-<a href="{{URL::to('https://www.instagram.com/?hl=es')}}"><img class='instagram' src={{asset('imagenes/instagram.png')}} alt="Instagram"></a>
+<a href="{{URL::to('https://www.instagram.com/blogarmariomaria/?hl=es')}}"><img class='instagram' src={{asset('imagenes/instagram.png')}} alt="Instagram"></a>
 </div>
 <div>    
             @if (Route::has('login'))
